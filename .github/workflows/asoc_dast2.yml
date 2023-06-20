@@ -1,4 +1,4 @@
-name: "HCL AppScan DAST - basic"
+name: "HCL AppScan DAST2 - basic"
 on:
   workflow_dispatch
 jobs:
@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Run ASoC DAST Scan
+      - name: Run ASoC DAST Scan2
         uses: HCL-TECH-SOFTWARE/appscan-dast-action@v1.0.5
         with:
           baseurl:  https://cloud.appscan.com
