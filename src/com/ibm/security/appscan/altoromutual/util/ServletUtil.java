@@ -352,6 +352,8 @@ public class ServletUtil {
 		catch(SQLException e){
 			e.printStackTrace();
 			return null;
+			{
+			};
 		}
 	}
 	
