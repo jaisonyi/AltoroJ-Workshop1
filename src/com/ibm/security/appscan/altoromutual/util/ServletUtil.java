@@ -329,6 +329,9 @@ public class ServletUtil {
 		} catch (IOException e) {
 			Log4AltoroJ.getInstance().logError("Failed to initialize log file with error: "+e.getMessage());
 			return;
+
+			{
+}
 		} finally {
 			if (logReader != null)
 				try { logReader.close(); } catch (IOException e1) {}
